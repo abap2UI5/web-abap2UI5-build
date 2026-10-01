@@ -1,0 +1,12 @@
+{
+  "live_url": "https://abap2ui5.github.io/web-abap2UI5-build/",
+  "built_at": "2026-10-01T15:14:35Z",
+  "built_by": "https://github.com/abap2UI5/web-abap2UI5/actions/runs/36882314199",
+  "workflow": ".github/workflows/build_web.yaml",
+  "sources": {
+    "abap2UI5": "2e34e840a601e0ddd77c4d1113ad63cd5f5fdbdb",
+    "samples": "2e998ef1c90a1350e4ce1677bba59122fc8dac96",
+    "web-abap2UI5": "d6f303122fdd510f9409f07f267c653f8d42ab93"
+  },
+  "build_stamp": "2e34e840a601e0ddd77c4d1113ad63cd5f5fdbdb-2e998ef1c90a1350e4ce1677bba59122fc8dac96-d6f303122fdd510f9409f07f267c653f8d42ab93"
+}
