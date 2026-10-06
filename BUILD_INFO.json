@@ -1,0 +1,14 @@
+{
+  "live_url": "https://abap2ui5.github.io/web-abap2UI5-build/",
+  "built_at": "2026-10-06T19:43:37.351Z",
+  "built_by": "https://github.com/abap2UI5/web-abap2UI5/actions/runs/37520718303",
+  "workflow": ".github/workflows/build_web.yaml",
+  "ui5": "1.136.21",
+  "sources": {
+    "abap2UI5": "https://github.com/abap2UI5/abap2UI5/tree/2e34e840a601e0ddd77c4d1113ad63cd5f5fdbdb",
+    "samples": "https://github.com/abap2UI5/samples/tree/2e998ef1c90a1350e4ce1677bba59122fc8dac96",
+    "open-abap-core": "https://github.com/open-abap/open-abap-core/tree/c677145204bbbaac2be2a615ea53ad5dd8a36aa9",
+    "express-icf-shim": "https://github.com/open-abap/express-icf-shim/tree/996eb798ff8aa0a302c6672e95b1fde7b95bcbe3",
+    "web-abap2UI5": "https://github.com/abap2UI5/web-abap2UI5/tree/5cdbfd701051f47c7f4a598063fba35389dc2e0e"
+  }
+}
