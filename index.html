@@ -1,1 +1,29 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>abap2UI5</title><link rel="icon" href="data:,"/></head><body><script src="app.bundle.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>abap2UI5 browser demo — moved</title>
+  <!-- The demo moved to abap2UI5/browser-demo. This page is served for the
+       old root AND (as 404.html) for every old path below it, so it keeps
+       whatever followed /web-abap2UI5-build/ - the path, ?app_start=… and
+       the hash - and carries it over to the new address. -->
+  <link rel="canonical" href="https://abap2ui5.github.io/browser-demo/">
+  <meta http-equiv="refresh" content="3; url=https://abap2ui5.github.io/browser-demo/">
+  <script>
+    (function () {
+      var rest = location.pathname.replace(/^\/web-abap2UI5-build\/?/i, '');
+      location.replace('https://abap2ui5.github.io/browser-demo/' + rest + location.search + location.hash);
+    }());
+  </script>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 4rem auto; max-width: 34rem; padding: 0 1rem; }
+    a { color: #0064d9; }
+  </style>
+</head>
+<body>
+  <h1>The demo has moved</h1>
+  <p>The abap2UI5 browser demo now lives at
+    <a href="https://abap2ui5.github.io/browser-demo/">abap2ui5.github.io/browser-demo</a>.
+    Please update your bookmark.</p>
+</body>
+</html>
