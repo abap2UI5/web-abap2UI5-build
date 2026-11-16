@@ -1,33 +1,14 @@
-# web-abap2UI5-build
+# web-abap2UI5-build — moved
 
-**This repository is a build artifact. Do not edit it — every deploy replaces
-its entire content (`force_orphan: true`), including anything committed here
-by hand.**
+**The abap2UI5 browser demo now lives at
+<https://abap2ui5.github.io/browser-demo/>, built and published by
+[abap2UI5/browser-demo](https://github.com/abap2UI5/browser-demo).**
 
-The whole abap2UI5 backend, downported, transpiled to JavaScript and bundled
-into a single script that runs inside the browser tab: SQLite compiled to wasm
-stands in for the database, the frontend HTML is served by the transpiled
-`z2ui5_cl_ui5_http_handler` in-process, and there is no server behind it at all.
+This repository used to hold the generated build of that demo, pushed here by
+a workflow so that GitHub Pages could serve it. The demo now publishes itself
+from its own repository, so nothing is built here any more.
 
-**Live: <https://abap2ui5.github.io/web-abap2UI5-build/>**
-
-| | |
-|---|---|
-| Built by | [abap2UI5/web-abap2UI5](https://github.com/abap2UI5/web-abap2UI5) — workflow `build_web.yaml`, on change only (the inputs are pinned) |
-| Built from | [abap2UI5](https://github.com/abap2UI5/abap2UI5) + [samples](https://github.com/abap2UI5/samples) — `BUILD_INFO.json` names the exact commits |
-| Report a problem | with the browser build: [web-abap2UI5](https://github.com/abap2UI5/web-abap2UI5/issues) · with the framework: [abap2UI5](https://github.com/abap2UI5/abap2UI5/issues) |
-
-Do not open issues or pull requests here — nothing in this repository is a
-source file.
-
-## What is in here
-
-| File | What it is |
-|---|---|
-| `index.html`, `app.bundle.js` | the webpack bundle: transpiled backend, runtime and boot code |
-| `sql-wasm-browser.wasm` | SQLite (sql.js), standing in for the database |
-| `css/style.css` | the stylesheet the z2ui5 frontend manifest asks for |
-| `BUILD_INFO.json` | provenance: the pinned upstream commits, the UI5 release and the run this build came from |
-| `404.html` | redirects stray paths back to the app |
-
-Each commit here is one deployment, so `git log` is the deployment history.
+What is left is a redirect: `index.html` and `404.html` send every old address
+— path, `?app_start=…` and hash included — to the same place under the new
+URL. The repository is archived; do not open issues or pull requests here.
+Report problems at [abap2UI5/browser-demo](https://github.com/abap2UI5/browser-demo/issues).
